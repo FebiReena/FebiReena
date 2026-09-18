@@ -1,0 +1,45 @@
+<label>ID:</label>
+<input type="text" [(ngModel)]="id" required>
+
+<label>Name:</label>
+<input type="text" [(ngModel)]="name" required>
+
+<button (click)="submit()">Submit</button>
+
+
+submit() {
+  if (this.id == '' || this.name == '') {
+    alert('Please fill all fields');
+    return;
+  }
+
+  alert('Submitted successfully');
+}
+
+<form #f="ngForm" (ngSubmit)="submit(f)">
+
+  <label>ID:</label>
+  <input type="text" name="id" [(ngModel)]="id" required #idRef="ngModel">
+
+  <p *ngIf="idRef.invalid && idRef.touched">
+    ID is required
+  </p>
+
+  <label>Name:</label>
+  <input type="text" name="name" [(ngModel)]="name" required #nameRef="ngModel">
+
+  <p *ngIf="nameRef.invalid && nameRef.touched">
+    Name is required
+  </p>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+submit(form: any) {
+  if (form.invalid) {
+    return;
+  }
+
+  alert('Submitted successfully');
+}
