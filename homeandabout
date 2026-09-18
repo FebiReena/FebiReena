@@ -1,0 +1,75 @@
+7. Home Component
+home.component.ts
+
+src/app/home/home.component.ts
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
+})
+export class HomeComponent {
+}
+home.component.html
+<div class="page">
+
+  <h2>Home Page</h2>
+
+  <p>
+    Welcome to Student Management System.
+  </p>
+
+  <p>
+    This application demonstrates Angular concepts.
+  </p>
+
+</div>
+home.component.css
+.page {
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+11. About Component
+about.component.ts
+
+src/app/about/about.component.ts
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
+})
+export class AboutComponent {
+}
+about.component.html
+<div class="page">
+
+  <h2>About Page</h2>
+
+  <p>
+    This application is created using Angular.
+  </p>
+
+  <p>
+    It demonstrates:
+  </p>
+
+  <p>
+    Module - Component - Routing - Forms - CRUD - Animation
+  </p>
+
+</div>
+about.component.css
+.page {
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
