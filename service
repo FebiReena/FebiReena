@@ -1,0 +1,371 @@
+Yes bro 👍 If you mean **Angular Service**, here is the **full simple method from creating the service → writing code → connecting it to component → running it**.
+
+I'll use a simple **Student Service** because it matches your current program.
+
+## 1. Create Angular project
+
+If you already have your project, skip this.
+
+```bash
+ng new StudentService
+cd StudentService
+ng serve
+```
+
+Choose:
+
+```text
+CSS
+SSR → No
+```
+
+---
+
+## 2. Generate a service
+
+Open terminal inside the project:
+
+```bash
+ng generate service student
+```
+
+Short form:
+
+```bash
+ng g s student
+```
+
+It creates:
+
+```text
+src/app/student.service.ts
+src/app/student.service.spec.ts
+```
+
+You mainly use:
+
+```text
+student.service.ts
+```
+
+---
+
+## 3. Write service code
+
+Open:
+
+```text
+src/app/student.service.ts
+```
+
+Put:
+
+```ts
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class StudentService {
+
+  students: any[] = [];
+
+  addStudent(student: any) {
+    this.students.push(student);
+  }
+
+  getStudents() {
+    return this.students;
+  }
+
+  deleteStudent(index: number) {
+    this.students.splice(index, 1);
+  }
+}
+```
+
+### Easy meaning
+
+```text
+Service = stores common data and methods
+```
+
+Here the service stores the students and performs:
+
+* Add
+* Get
+* Delete
+
+---
+
+# 4. Use service in Student Component
+
+Open:
+
+```text
+student.component.ts
+```
+
+Use:
+
+```ts
+import { Component } from '@angular/core';
+import { StudentService } from '../student.service';
+
+@Component({
+  selector: 'app-student',
+  templateUrl: './student.component.html',
+  styleUrls: ['./student.component.css']
+})
+export class StudentComponent {
+
+  id = '';
+  name = '';
+
+  students: any[] = [];
+
+  constructor(private service: StudentService) {
+    this.students = this.service.getStudents();
+  }
+
+  addStudent() {
+
+    const student = {
+      id: this.id,
+      name: this.name
+    };
+
+    this.service.addStudent(student);
+
+    this.clear();
+  }
+
+  deleteStudent(index: number) {
+    this.service.deleteStudent(index);
+  }
+
+  clear() {
+    this.id = '';
+    this.name = '';
+  }
+}
+```
+
+---
+
+# 5. HTML
+
+Open:
+
+```text
+student.component.html
+```
+
+Put:
+
+```html
+<div class="main">
+
+  <div class="inputbox">
+
+    <h2>Student Form</h2>
+
+    <label>ID:</label>
+    <input type="text" [(ngModel)]="id">
+
+    <label>Name:</label>
+    <input type="text" [(ngModel)]="name">
+
+    <button (click)="addStudent()">Submit</button>
+
+  </div>
+
+
+  <div class="outputbox">
+
+    <h2>Students</h2>
+
+    <table border="1">
+
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Action</th>
+      </tr>
+
+      <tr *ngFor="let student of students; let i = index">
+
+        <td>{{ student.id }}</td>
+        <td>{{ student.name }}</td>
+
+        <td>
+          <button (click)="deleteStudent(i)">Delete</button>
+        </td>
+
+      </tr>
+
+    </table>
+
+  </div>
+
+</div>
+```
+
+---
+
+# 6. Make sure FormsModule is imported
+
+Since you use:
+
+```html
+[(ngModel)]
+```
+
+your `app.module.ts` needs:
+
+```ts
+import { FormsModule } from '@angular/forms';
+```
+
+and:
+
+```ts
+imports: [
+  BrowserModule,
+  FormsModule
+]
+```
+
+For your **current module-based project**, you already have `FormsModule`, so don't add it again.
+
+---
+
+# 7. Simple CSS
+
+```css
+.main {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.inputbox,
+.outputbox {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+}
+```
+
+---
+
+# 8. Run the program
+
+In terminal:
+
+```bash
+ng serve
+```
+
+Then open:
+
+```text
+http://localhost:4200
+```
+
+Enter:
+
+```text
+ID: 101
+Name: Febi
+```
+
+Click **Submit**.
+
+The component calls:
+
+```text
+addStudent()
+       ↓
+StudentService
+       ↓
+addStudent(student)
+       ↓
+students.push(student)
+       ↓
+Table displays student
+```
+
+---
+
+# ⭐ Exam method to remember
+
+For **Angular Service**, remember only these steps:
+
+### Step 1 — Generate
+
+```bash
+ng g s student
+```
+
+### Step 2 — Service
+
+```ts
+@Injectable({
+  providedIn: 'root'
+})
+export class StudentService {
+
+  students: any[] = [];
+
+  addStudent(student: any) {
+    this.students.push(student);
+  }
+
+  getStudents() {
+    return this.students;
+  }
+}
+```
+
+### Step 3 — Import service
+
+```ts
+import { StudentService } from '../student.service';
+```
+
+### Step 4 — Constructor injection
+
+```ts
+constructor(private service: StudentService) {}
+```
+
+### Step 5 — Call service
+
+```ts
+this.service.addStudent(student);
+```
+
+### Step 6 — Display
+
+```html
+<tr *ngFor="let student of students">
+```
+
+**Main idea:**
+
+```text
+Component → Service → Data
+```
+
+The **component handles the UI**, while the **service handles shared data/logic**.
