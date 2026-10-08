@@ -1,36 +1,47 @@
-# Hi!!, I'm Febi Reena
+<!-- Header -->
+![header](https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:196c2e&height=110&section=header&text=Febi%20Reena&fontColor=7ee787&fontSize=38&fontAlign=50&fontAlignY=50)
 
-### Information Technology Student | IoT & Embedded Systems | Web Development
+<p align="center">
+  Information Technology student building IoT, embedded systems and web apps.
+</p>
 
-I build ESP32-based IoT projects and full-stack web apps. Always learning, always shipping.
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0e4429?style=flat-square&logo=linkedin&logoColor=7ee787" /></a>
+  <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-0e4429?style=flat-square&logo=gmail&logoColor=7ee787" /></a>
+  <a href="https://github.com/FebiReena?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0e4429?style=flat-square&logo=github&logoColor=7ee787" /></a>
+</p>
 
 ---
 
-### 🚀 Featured Projects
+### Stack
 
-| Project | What it does | Tech |
+![C++](https://img.shields.io/badge/C++-0e4429?style=flat-square&logo=cplusplus&logoColor=7ee787)
+![Arduino](https://img.shields.io/badge/Arduino-006d32?style=flat-square&logo=arduino&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-196c2e?style=flat-square&logo=espressif&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-26a641?style=flat-square&logo=javascript&logoColor=0d1117)
+![Node.js](https://img.shields.io/badge/Node.js-39d353?style=flat-square&logo=nodedotjs&logoColor=0d1117)
+![HTML](https://img.shields.io/badge/HTML-0e4429?style=flat-square&logo=html5&logoColor=7ee787)
+![CSS](https://img.shields.io/badge/CSS-006d32?style=flat-square&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-196c2e?style=flat-square&logo=git&logoColor=white)
+
+---
+
+### Projects
+
+| Project | Description | Tech |
 |---|---|---|
-| [**Study Tracker**](https://github.com/FebiReena/study-tracker) | Full-stack study tracking app with user accounts and progress dashboard | Node.js, Express, JavaScript |
-| [**Smart Industrial Hazard Monitoring**](https://github.com/FebiReena/smart-industrial-hazard-monitoring-system) | ESP32 safety monitor with sensor integration, web dashboard and hazard alerts | ESP32, HTML, CSS, JS |
-| [**ESP32 Temperature & Humidity Monitor**](https://github.com/FebiReena/ESP32-Temperature-Humidity-Monitoring-System) | Real-time DHT11 readings shown on a web page | ESP32, C++ |
+| [**Study Tracker**](https://github.com/FebiReena/study-tracker) | Full-stack study tracking app with accounts and progress dashboard | Node.js, Express |
+| [**Smart Industrial Hazard Monitoring**](https://github.com/FebiReena/smart-industrial-hazard-monitoring-system) | ESP32 safety monitor with sensors, web dashboard and hazard alerts | ESP32, HTML, JS |
+| [**ESP32 Temp & Humidity Monitor**](https://github.com/FebiReena/ESP32-Temperature-Humidity-Monitoring-System) | Real-time DHT11 readings on a web page | ESP32, C++ |
 | [**Mini Games**](https://github.com/FebiReena/mini-games) | Pixel-style browser games hub | HTML, CSS, JS |
 
 ---
 
-### 💻 Tech Stack
+### Stats
 
-[![My Skills](https://skillicons.dev/icons?i=cpp,html,css,js,nodejs,express,arduino,git,github,vscode)](https://skillicons.dev)
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=FebiReena&show_icons=true&hide_border=false&bg_color=0d1117&border_color=0e4429&title_color=39d353&text_color=c9d1d9&icon_color=26a641" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FebiReena&layout=compact&bg_color=0d1117&border_color=0e4429&title_color=39d353&text_color=c9d1d9" />
+</p>
 
----
-
-### 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FebiReena&show_icons=true&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FebiReena&layout=compact&theme=dark&hide_border=true)
-
----
-
-### 🌐 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
+![footer](https://capsule-render.vercel.app/api?type=rect&color=0:196c2e,100:0d1117&height=50&section=footer)
