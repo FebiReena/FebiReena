@@ -1,7 +1,15 @@
 <!-- Header -->
 ![header](https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:196c2e&height=110&section=header&text=Febi%20Reena&fontColor=7ee787&fontSize=38&fontAlign=50&fontAlignY=50)
 
-<p align="center"> Information Technology student building IoT, embedded systems and web apps. </p> <p align="center"> <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0e4429?style=flat-square&logo=linkedin&logoColor=7ee787" /></a> <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-0e4429?style=flat-square&logo=gmail&logoColor=7ee787" /></a> <a href="https://github.com/FebiReena?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0e4429?style=flat-square&logo=github&logoColor=7ee787" /></a> </p>
+<p align="center">
+  Information Technology student building IoT, embedded systems and web apps.
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0e4429?style=flat-square&logo=linkedin&logoColor=7ee787" /></a>
+  <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-0e4429?style=flat-square&logo=gmail&logoColor=7ee787" /></a>
+  <a href="https://github.com/FebiReena?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0e4429?style=flat-square&logo=github&logoColor=7ee787" /></a>
+</p>
 
 ---
 
