@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="www.linkedin.com/in/febi-reena-993b64441"><img src="https://img.shields.io/badge/LinkedIn-0e4429?style=flat-square&logo=linkedin&logoColor=7ee787" /></a>
+  <a href="https://www.linkedin.com/in/febi-reena-993b64441"><img src="https://img.shields.io/badge/LinkedIn-0e4429?style=flat-square&logo=linkedin&logoColor=7ee787" /></a>
   <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-0e4429?style=flat-square&logo=gmail&logoColor=7ee787" /></a>
   <a href="https://github.com/FebiReena?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0e4429?style=flat-square&logo=github&logoColor=7ee787" /></a>
 </p>
