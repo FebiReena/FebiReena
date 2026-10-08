@@ -41,7 +41,7 @@
 
 <p align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=FebiReena&show_icons=true&hide_border=false&bg_color=0d1117&border_color=0e4429&title_color=39d353&text_color=c9d1d9&icon_color=26a641" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FebiReena&layout=compact&bg_color=0d1117&border_color=0e4429&title_color=39d353&text_color=c9d1d9" />
+  <img height="150" src="./languages.svg" />
 </p>
 
 ![footer](https://capsule-render.vercel.app/api?type=rect&color=0:196c2e,100:0d1117&height=50&section=footer)
