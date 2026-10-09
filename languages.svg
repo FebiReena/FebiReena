@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="152" viewBox="0 0 400 152" fill="none" role="img" aria-label="Most used languages">
+  <defs><clipPath id="bar"><rect x="25" y="58" width="350" height="8" rx="4"/></clipPath></defs>
+  <rect x="0.5" y="0.5" width="399" height="151" rx="4.5" fill="#0d1117" stroke="#0e4429"/>
+  <text x="25" y="35" font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="18" font-weight="600" fill="#39d353">Most Used Languages</text>
+  <g clip-path="url(#bar)"><rect x="25.0" y="58" width="98.4" height="8" fill="#39d353"/><rect x="123.4" y="58" width="97.0" height="8" fill="#26a641"/><rect x="122.4" y="58" width="2" height="8" fill="#0d1117"/><rect x="220.4" y="58" width="83.2" height="8" fill="#006d32"/><rect x="219.4" y="58" width="2" height="8" fill="#0d1117"/><rect x="303.6" y="58" width="71.4" height="8" fill="#7ee787"/><rect x="302.6" y="58" width="2" height="8" fill="#0d1117"/></g>
+  <g font-family="Segoe UI, Ubuntu, Sans-Serif" font-size="13" fill="#c9d1d9"><circle cx="32" cy="92" r="5" fill="#39d353"/><text x="45" y="96.5">CSS 28.11%</text><circle cx="212" cy="92" r="5" fill="#26a641"/><text x="225" y="96.5">JavaScript 27.73%</text><circle cx="32" cy="118" r="5" fill="#006d32"/><text x="45" y="122.5">C++ 23.78%</text><circle cx="212" cy="118" r="5" fill="#7ee787"/><text x="225" y="122.5">HTML 20.39%</text></g>
+</svg>
