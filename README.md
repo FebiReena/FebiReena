@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/febi-reena-993b64441"><img src="https://img.shields.io/badge/LinkedIn-0e4429?style=flat-square&logo=linkedin&logoColor=7ee787" /></a>
-  <a href="mailto:febireena07@gmail.com"><img src="https://img.shields.io/badge/Email-0e4429?style=flat-square&logo=gmail&logoColor=7ee787" /></a>
+  <a href="mailto:YOUR-EMAIL@gmail.com"><img src="https://img.shields.io/badge/Email-0e4429?style=flat-square&logo=gmail&logoColor=7ee787" /></a>
   <a href="https://github.com/FebiReena?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0e4429?style=flat-square&logo=github&logoColor=7ee787" /></a>
 </p>
 
@@ -30,6 +30,7 @@
 
 | Project | Description | Tech | Link |
 |---|---|---|---|
+| **Study Tracker** | Full-stack study tracking app with accounts and progress dashboard | Node.js, Express | [![View](https://img.shields.io/badge/View_repo-196c2e?style=flat-square&logo=github&logoColor=7ee787)](https://github.com/FebiReena/study-tracker) |
 | **Smart Industrial Hazard Monitoring** | ESP32 safety monitor with sensors, web dashboard and hazard alerts | ESP32, HTML, JS | [![View](https://img.shields.io/badge/View_repo-196c2e?style=flat-square&logo=github&logoColor=7ee787)](https://github.com/FebiReena/smart-industrial-hazard-monitoring-system) |
 | **ESP32 Temp & Humidity Monitor** | Real-time DHT11 readings on a web page | ESP32, C++ | [![View](https://img.shields.io/badge/View_repo-196c2e?style=flat-square&logo=github&logoColor=7ee787)](https://github.com/FebiReena/ESP32-Temperature-Humidity-Monitoring-System) |
 | **Mini Games** | Pixel-style browser games hub | HTML, CSS, JS | [![View](https://img.shields.io/badge/View_repo-196c2e?style=flat-square&logo=github&logoColor=7ee787)](https://github.com/FebiReena/mini-games) |
