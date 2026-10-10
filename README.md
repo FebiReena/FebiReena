@@ -30,6 +30,7 @@
 
 | Project | Description | Tech | Link |
 |---|---|---|---|
+| **Personal Portfolio** | Personal portfolio showcasing my achievements and accomplishments| ESP32, HTML, JS | [![View]()]
 | **Smart Industrial Hazard Monitoring** | ESP32 safety monitor with sensors, web dashboard and hazard alerts | ESP32, HTML, JS | [![View](https://img.shields.io/badge/View_repo-196c2e?style=flat-square&logo=github&logoColor=7ee787)](https://github.com/FebiReena/smart-industrial-hazard-monitoring-system) |
 | **ESP32 Temp & Humidity Monitor** | Real-time DHT11 readings on a web page | ESP32, C++ | [![View](https://img.shields.io/badge/View_repo-196c2e?style=flat-square&logo=github&logoColor=7ee787)](https://github.com/FebiReena/ESP32-Temperature-Humidity-Monitoring-System) |
 | **Mini Games** | Pixel-style browser games hub | HTML, CSS, JS | [![View](https://img.shields.io/badge/View_repo-196c2e?style=flat-square&logo=github&logoColor=7ee787)](https://github.com/FebiReena/mini-games) |
